@@ -1,8 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'bg-port': "url('/src/assets/img/bg-portfolio.svg')",
+        'bg-compet':"url('/src/assets/img/bg-compet.svg')",
+      }
+    },
   },
   plugins: [],
 }

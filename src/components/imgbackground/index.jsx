@@ -1,3 +1,16 @@
-<body className="bg-background">
+
+
+const BgImg = () => {
+    return (
+<>
+        
+           <section >
+        <div >
+
+        </div>
+           </section>
     
-</body>
+</>
+    )
+}
+export default BgImg;
